@@ -1,0 +1,102 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #424242;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+header #logo {
+  width: 10%;
+  min-width: 60px;
+  max-width: 100px;
+  float: left;
+  margin-right: 20px;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  line-height: 10vw;
+  vertical-align: middle;
+  margin: 0px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+figure {
+  margin: 0px;
+}
+
+#flourish {
+  text-align: center;
+}
+
+#social,
+#credits {
+  text-align: center;
+}
+
+#social a {
+  margin: 5px;
+}
+
+#credits a {
+  display: inline-block;
+  padding: 1.5em;
+}
+
+@media screen and (min-width: 60em) {
+  article,
+  header {
+    width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header h1 {
+    line-height: 96px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  header #logo {
+    margin-left: calc((100vw - 60px) / 2);
+    text-align: center;
+    float: none;
+    display: block;
+  }
+
+  header h1 {
+    line-height: 60px;
+    text-align: center;
+  }
+}
