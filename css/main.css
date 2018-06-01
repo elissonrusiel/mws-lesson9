@@ -24,7 +24,7 @@ body {
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.2em;
-  color: #424242;
+  color: #454545;
 }
 
 img, embed, object, video {
@@ -49,11 +49,15 @@ header h1 {
 
 p {
   font-size: 16px;
-  line-height: 1.2em;
+  line-height: 1.5em;
 }
 
 figure {
   margin: 0px;
+}
+
+figcaption {
+  text-align: center;
 }
 
 #flourish {
@@ -74,6 +78,10 @@ figure {
   padding: 1.5em;
 }
 
+hr {
+  border: 0.5px solid #CCC;
+}
+
 @media screen and (min-width: 60em) {
   article,
   header {
@@ -87,7 +95,7 @@ figure {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
   header #logo {
     margin-left: calc((100vw - 60px) / 2);
     text-align: center;
